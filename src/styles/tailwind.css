@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile-stats-title {
+  @apply text-gray-600 text-sm
+}
+
+.profile-stats {
+  @apply text-2xl text-gray-700 tracking-wide leading-tight
+}
+
+.heading {
+  @apply text-xl font-semibold tracking-wide text-gray-800
+}
+
+.hollow-button {
+  @apply py-3 px-6 rounded-md flex flex-row justify-between items-center border-2 border-gray-300 cursor-pointer
+}
+
+.hollow-button-highlight {
+  @apply border-primary-700 bg-primary-100
+}
+
+.flex-center {
+  @apply flex flex-row justify-center items-center
+}
+
+.flex-between-center {
+  @apply flex flex-row justify-between items-center
+}
+
+.flex-between-start {
+  @apply flex flex-row justify-between items-start
+}
